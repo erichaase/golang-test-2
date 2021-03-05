@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang
+  description: golang
+  annotations: 
+    github.com/project-slug: erichaase/golang-test-2
+    backstage.io/source-ref: "https://github.com/erichaase/golang-test-2/"
+    backstage.io/techdocs-ref: url:https://github.com/erichaase/golang-test-2/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: erichaase
